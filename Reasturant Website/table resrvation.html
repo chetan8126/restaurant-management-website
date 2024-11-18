@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Table Reservation</title>
+  <link rel="stylesheet" href="Reservation.css">
+</head>
+<body>
+    
+    <div class="container">
+    <h2>Table Reservation</h2>
+    <form id="reservationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="Phone No">Phone No:</label>
+      <input type="number" id="number" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      <label for="time">Time:</label>
+      <input type="time" id="time" required>
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" min="1" required>
+      <button type="submit">Reserve Table</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script src="ReservationScript.js"></script>
+</body>
+</html>

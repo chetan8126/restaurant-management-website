@@ -1,0 +1,87 @@
+/* Menus.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 800px;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/495/760/53/cuisine-food-india-indian-wallpaper-preview.jpg) ; /* Specify the URL of your GIF */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-color: aliceblue; /* Fallback color */
+}
+
+.restaurant-menu {
+    background:transparent;
+    margin-top: 50px;
+    padding: 15px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.restaurant-menu__header {
+    text-align: top;
+    margin-left: 410px;
+    font-style: italic;
+    font-size: larger;
+}
+
+.restaurant-menu__title {
+    font-size: 24px;
+    font-family: 'Slabo 27px', serif;
+    color: aliceblue;
+}
+
+.restaurant-menu__items {
+    margin-top: 24px;
+}
+
+.restaurant-menu__item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.restaurant-menu__item-media {
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
+
+.restaurant-menu__item-media img {
+    max-width: 100%;
+    height: auto;
+}
+
+.restaurant-menu__item-info {
+    color: white;
+    flex: 1;
+}
+
+.restaurant-menu__item-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restaurant-menu__item-name {
+    background:skyblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.restaurant-menu__item-price {
+    margin-left: 10px;
+}
+
+.restaurant-menu__description {
+    font-size: 16px;
+}
